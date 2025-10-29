@@ -27,9 +27,9 @@ const MonthlySales = () => {
         <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Monthly Sales</h3>
-                <button className="text-gray-400 hover:text-gray-600">
+                {/* <button className="text-gray-400 hover:text-gray-600">
                     <MoreIcon />
-                </button>
+                </button> */}
             </div>
             
             <div className="flex" style={{ height: '200px' }}>

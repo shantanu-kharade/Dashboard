@@ -6,7 +6,7 @@ import Team from './pages/Team'
 import Projects from './pages/Projects'
 import FrontPage from './pages/FrontPage'
 import SignIn from './pages/SignIn'
-
+import PageNotFound from './pages/PageNotFound'
 
 function App() {
     return (
@@ -17,6 +17,7 @@ function App() {
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="*" element={<PageNotFound />} />
             </Routes>
         </BrowserRouter>
 

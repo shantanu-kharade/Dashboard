@@ -1,6 +1,6 @@
 import React from 'react';
 
-// More options icon
+
 const MoreIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path d="M10 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM10 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM10 18a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
@@ -14,9 +14,9 @@ const MonthlyTarget = () => {
         <div className="bg-white p-6 rounded-lg shadow-md h-full flex flex-col">
             <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-semibold text-gray-900">Monthly Target</h3>
-                <button className="text-gray-400 hover:text-gray-600">
+                {/* <button className="text-gray-400 hover:text-gray-600">
                     <MoreIcon />
-                </button>
+                </button> */}
             </div>
 
            
@@ -50,7 +50,7 @@ const MonthlyTarget = () => {
 
             
 
-            {/* Footer Stats */}
+           
             <div className="flex justify-between text-center mt-6 pt-4 border-t border-gray-100">
                 <div>
                     <p className="text-sm text-gray-500">Target</p>

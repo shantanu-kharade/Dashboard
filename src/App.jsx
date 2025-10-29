@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Dashboard from './pages/Dashboard'
-import Team from './pages/Team'
+import Inventory from './pages/Inventory'
 import Projects from './pages/Projects'
 import FrontPage from './pages/FrontPage'
 import SignIn from './pages/SignIn'
@@ -15,7 +15,7 @@ function App() {
                 <Route path="/" element={<FrontPage />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/signin" element={<SignIn />} />
-                <Route path="/team" element={<Team />} />
+                <Route path="/inventory" element={<Inventory />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>

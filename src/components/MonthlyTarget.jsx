@@ -22,20 +22,20 @@ const MonthlyTarget = () => {
            
             <div className="relative grow flex items-center justify-center my-4">
                 <div className="absolute w-48 h-48">
-                    <svg className="w-full h-full" viewBox="0 0 36 36" transform="rotate(-90)">
+                    <svg className="w-full h-full" viewBox="0 0 36 36" transform="rotate(-75)">
                         <path
                             d="M18 2.0845
                 a 15.9155 15.9155 0 0 1 0 31.831
                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             fill="none"
-                            stroke="#f3f4f6" // gray-100
+                            stroke="#f3f4f6" 
                             strokeWidth="3.8"
                         />
                         <path
                             d="M18 2.0845
                 a 15.9155 15.9155 0 0 1 0 31.831"
                             fill="none"
-                            stroke="#4f46e5" // indigo-600
+                            stroke="#4f46e5" 
                             strokeWidth="3.8"
                             strokeDasharray={`${percentage}, 100`}
                             strokeLinecap="round"

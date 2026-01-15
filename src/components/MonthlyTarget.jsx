@@ -58,7 +58,7 @@ const MonthlyTarget = () => {
                 </div>
                 <div>
                     <p className="text-sm text-gray-500">Revenue</p>
-                    <p className="text-base font-semibold text-gray-900">$20K <span className="text-green-500">↑</span></p>
+                    <p className="text-base font-semibold text-gray-900">$50K <span className="text-green-500">↑</span></p>
                 </div>
                 <div>
                     <p className="text-sm text-gray-500">Today</p>
